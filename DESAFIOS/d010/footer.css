@@ -1,0 +1,10 @@
+footer {
+    background-color: rgb(26,92,56);
+    padding: 5px 0px;
+}
+footer > p {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,18 @@
+@charset "Utf-8";
+
+body {
+    background-color: aquamarine; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 20px;
+}
+h1 {
+    color: rgb(49, 49, 66);
+    background-color: rgb(255, 0, 0);
+}
+
+h2 {
+    color: gold;
+}
+
+p {
+    text-align: justify;
+}

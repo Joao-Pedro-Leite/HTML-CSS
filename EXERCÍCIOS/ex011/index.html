@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotos adaptativas</title>
+</head>
+<body>
+    <h1>Vamos começar com as imagens e mídias</h1>
+
+    <h2>A primeira é imagem da Deusa Makima</h2>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/Makima-300.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/Makima-700.jpg" type="image/jpg">
+        <img src="imagens/makima-1000.jpg" alt="A imagem deve de funcionar">
+    </picture>
+    <h2>Agora vamos colocar o podcast do gustavinho da guanaba</h2>
+    <audio preload="metadata" controls loop>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+    </audio>
+    <audio preload="metadata" controls autoplay>
+        <source src="midia/happy-mistake (1).mp3" type="audio/mpeg"> 
+
+        <p>Pro navegador que não suportar só usar</p>
+    </audio>
+    
+    <h2>Vamo colocar uns videozinho agra tabão</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/4OZYsFl-J9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

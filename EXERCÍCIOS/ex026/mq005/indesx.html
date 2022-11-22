@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <!--Chamadas medias Querys-->
+    <link rel="stylesheet" href="estilos/tela.css" media="screen">
+    <link rel="stylesheet" href="estilos/media-query.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>Notícias</h1>
+
+        <div id="burguer" class="material-icons" onclick="clickMenu()">menu</div>
+
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Pagina 1</a></li>
+                <li><a href="#">Pagina 2</a></li>
+                <li><a href="#">Pagina 3</a></li>
+                <li><a href="#">Pagina 4</a></li>
+                <li><a href="#">Pagina 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Estou a aprender</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nobis voluptas eaque rerum! Adipisci dolore ratione numquam, tenetur enim pariatur praesentium, autem incidunt non veritatis sint et nobis aspernatur a!</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, doloribus sunt inventore animi, consequuntur illum, quidem libero perspiciatis accusamus saepe aliquid? Laborum vitae eaque, rem facilis ullam nulla laboriosam ducimus.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda eaque reprehenderit tempora iure? Perferendis, aspernatur. Minus quis beatae expedita doloremque qui voluptatum enim blanditiis consequuntur in accusantium, consectetur maiores recusandae.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda eaque reprehenderit tempora iure? Perferendis, aspernatur. Minus quis beatae expedita doloremque qui voluptatum enim blanditiis consequuntur in accusantium, consectetur maiores recusandae.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda eaque reprehenderit tempora iure? Perferendis, aspernatur. Minus quis beatae expedita doloremque qui voluptatum enim blanditiis consequuntur in accusantium, consectetur maiores recusandae.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda eaque reprehenderit tempora iure? Perferendis, aspernatur. Minus quis beatae expedita doloremque qui voluptatum enim blanditiis consequuntur in accusantium, consectetur maiores recusandae.
+
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda eaque reprehenderit tempora iure? Perferendis, aspernatur. Minus quis beatae expedita doloremque qui voluptatum enim blanditiis consequuntur in accusantium, consectetur maiores recusandae.
+
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda eaque reprehenderit tempora iure? Perferendis, aspernatur. Minus quis beatae expedita doloremque qui voluptatum enim blanditiis consequuntur in accusantium, consectetur maiores recusandae.
+
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda eaque reprehenderit tempora iure? Perferendis, aspernatur. Minus quis beatae expedita doloremque qui voluptatum enim blanditiis consequuntur in accusantium, consectetur maiores recusandae.</p>
+            
+        </article>
+    </main>
+    <script>
+
+        function mudouTamanho(){
+            if (window.innerWidth >= 768) {
+                item.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+        
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
